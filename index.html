@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Meta Data Required-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DHAKA</title>
+
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!--owl css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
+
+  <!--custom css file-->
+  <link rel="stylesheet" href="style.css">
+
+  <!--icons-->
+  <script src="https://kit.fontawesome.com/a3a8f8f585.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+
+  <!--side bar-->
+  <div id="sidebar" class="sidebar">
+    <h2 class="sidebarheader">Menu</h2>
+    <a href="#"> <i class="fas fa-home"></i>Home</a>
+    <a href="#"> <i class="fas fa-cart-plus .font-Osans"></i>Cart</a>
+    <a href="#"> <i class="fas fa-heart .font-Osans"></i>WishList</a>
+    <a href="#"> <i class="fas fa-shopping-bag .font-Osans"></i>Purchases</a>
+    <a href="#"> <i class="fas fa-user-cog .font-Osans"></i>Setting</a>
+    <a href="#"> <i class="fas fa-user-circle .font-Osans"></i>Account</a>
+    <a href="#"> <i class="fas fa-sign-out-alt .font-Osans"></i>Sign Out</a>
+  </div>
+
+
+  <div id="navcontainer" class="navbarcontainer">
+    <a id="sidebarbtn" class="sidebarbtn" onclick="opencloseNav()"><i class="fas fa-bars"></i></a>
+    <a href="#" class="navbarmenu"><i class="fas fa-sign-in-alt"></i>Login</a>
+    <a href="#" class="navbarmenu"><i class="fas fa-user-plus"></i>Signup</a>
+  </div>
+
+  <div class="visualcontainer">
+    <div class="mainpic">
+      <img id="mainpic" class="pic" src="./assets/pic2.jpg" />
+    </div>
+
+    <div class="piccard">
+      <img id="cardpic" class="cardpic" src="./assets/pic2.jpg" />
+    </div>
+    
+    <div id="rightbutton" class="rightbutton">
+      <a onclick="slideright()"><i class="fas fa-chevron-right"></i></a>
+    </div>
+
+    <div id="leftbutton" class="leftbutton">
+      <a  onclick="slideleft()"><i class="fas fa-chevron-left"></i></a>
+    </div>
+
+    <div class="text">
+      <p id="test">
+        The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle: the clothing
+        and accessories that we wear and the cosmetics that we apply. Besides clothing, ornaments, accessories, and make
+        up, it also includes our mannerism and behavior.
+      </p>
+    </div>
+  </div>
+
+  <div class="main">
+
+    <div class="leftsection">
+      <div class="boxcategory">
+        <div class="categorybox">
+          <h3>Category 1</h3>
+        </div>
+        <div class="categorybox">
+          <h3>Category 1</h3>
+        </div>
+        <div class="categorybox">
+          <h3>Category 1</h3>
+        </div>
+        <div class="categorybox">
+          <h3>Category 1</h3>
+        </div>
+        <div class="categorybox">
+          <h3>Category 1</h3>
+        </div>
+        <div class="categorybox">
+          <h3>Category 1</h3>
+        </div>
+        <div class="categorybox">
+          <h3>Category 1</h3>
+        </div>
+        <div class="categorybox">
+          <h3>Category 1</h3>
+        </div>
+        <div class="categorybox">
+          <h3>Category 1</h3>
+        </div>
+        <div class="categorybox">
+          <h3>Category 1</h3>
+        </div>
+        <div class="categorybox">
+          <h3>Category 1</h3>
+        </div>
+        <div class="categorybox">
+          <h3>Category 1</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="middlesection">
+
+      <div class="categorycontainer">
+
+        <div class="sectionheader">
+          <h3>Shop By Categories</h3>
+        </div>
+
+        <div class="categorycard">
+          <img class="categorypic" src="./assets/pic1.jpg" />
+          <div class="categorytext">
+            <h4>Category 1</h4>
+            <p>
+              The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle:
+            </p>
+            <hr>
+          </div>
+        </div>
+
+        <div class="categorycard">
+          <img class="categorypic" src="./assets/pic1.jpg" />
+          <div class="categorytext">
+            <h4>Category 1</h4>
+            <p>
+              The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle:
+            </p>
+            <hr>
+          </div>
+        </div>
+
+        <div class="categorycard">
+          <img class="categorypic" src="./assets/pic1.jpg" />
+          <div class="categorytext">
+            <h4>Category 1</h4>
+            <p>
+              The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle:
+            </p>
+            <hr>
+          </div>
+        </div>
+
+        <div class="categorycard">
+          <img class="categorypic" src="./assets/pic1.jpg" />
+          <div class="categorytext">
+            <h4>Category 1</h4>
+            <p>
+              The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle:
+            </p>
+            <hr>
+          </div>
+        </div>
+
+        <div class="categorycard">
+          <img class="categorypic" src="./assets/pic1.jpg" />
+          <div class="categorytext">
+            <h4>Category 1</h4>
+            <p>
+              The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle:
+            </p>
+            <hr>
+          </div>
+        </div>
+        <div class="categorycard">
+          <img class="categorypic" src="./assets/pic1.jpg" />
+          <div class="categorytext">
+            <h4>Category 1</h4>
+            <p>
+              The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle:
+            </p>
+            <hr>
+          </div>
+        </div>
+        <div class="categorycard">
+          <img class="categorypic" src="./assets/pic1.jpg" />
+          <div class="categorytext">
+            <h4>Category 1</h4>
+            <p>
+              The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle:
+            </p>
+            <hr>
+          </div>
+        </div>
+        <div class="categorycard">
+          <img class="categorypic" src="./assets/pic1.jpg" />
+          <div class="categorytext">
+            <h4>Category 1</h4>
+            <p>
+              The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle:
+            </p>
+            <hr>
+          </div>
+        </div>
+        <div class="categorycard">
+          <img class="categorypic" src="./assets/pic1.jpg" />
+          <div class="categorytext">
+            <h4>Category 1</h4>
+            <p>
+              The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle:
+            </p>
+            <hr>
+          </div>
+        </div>
+        <div class="categorycard">
+          <img class="categorypic" src="./assets/pic1.jpg" />
+          <div class="categorytext">
+            <h4>Category 1</h4>
+            <p>
+              The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle:
+            </p>
+            <hr>
+          </div>
+        </div>
+        <div class="categorycard">
+          <img class="categorypic" src="./assets/pic1.jpg" />
+          <div class="categorytext">
+            <h4>Category 1</h4>
+            <p>
+              The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle:
+            </p>
+            <hr>
+          </div>
+        </div>
+        <div class="categorycard">
+          <img class="categorypic" src="./assets/pic1.jpg" />
+          <div class="categorytext">
+            <h4>Category 1</h4>
+            <p>
+              The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle:
+            </p>
+            <hr>
+          </div>
+        </div>
+        <div class="categorycard">
+          <img class="categorypic" src="./assets/pic1.jpg" />
+          <div class="categorytext">
+            <h4>Category 1</h4>
+            <p>
+              The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle:
+            </p>
+            <hr>
+          </div>
+        </div>
+        <div class="categorycard">
+          <img class="categorypic" src="./assets/pic1.jpg" />
+          <div class="categorytext">
+            <h4>Category 1</h4>
+            <p>
+              The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle:
+            </p>
+            <hr>
+          </div>
+        </div>
+
+        <div class="sectionheader">
+          <h3>Find More Information</h3>
+        </div>
+
+        <div class="infosection">
+          <div class="row">
+            <div class="col-sm-4">
+              <h3>About US</h3>
+              <p>
+                The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle: the
+                clothing
+                and accessories that we wear and the cosmetics that we apply. Besides clothing, ornaments, accessories,
+                and make
+                up, it also includes our mannerism and behavior.
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <h3>How we started</h3>
+              <p>
+                The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle: the
+                clothing
+                and accessories that we wear and the cosmetics that we apply. Besides clothing, ornaments, accessories,
+                and make
+                up, it also includes our mannerism and behavior.
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <h3>What More can we Offer?</h3>
+              <p>
+                The prevailing fashion/ trends/style is called ‘vogue’. Fashion can also simply mean our lifestyle: the
+                clothing
+                and accessories that we wear and the cosmetics that we apply. Besides clothing, ornaments, accessories,
+                and make
+                up, it also includes our mannerism and behavior.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="rightsection">
+
+    </div>
+
+  </div>
+
+  <div class="footersection">
+    <div class="footer">
+      <div class="row">
+        <div class="col-sm-4">
+          <h4>About Us</h4>
+          <ul>
+            <li>Option 1</li>
+            <li>Option 1</li>
+            <li>Option 1</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h4>Shop Online</h4>
+          <ul>
+            <li>Option 1</li>
+            <li>Option 1</li>
+            <li>Option 1</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h4>COntact us</h4>
+          <ul>
+            <li>Option 1</li>
+            <li>Option 1</li>
+            <li>Option 1</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Bootstrap JS-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+  <!--custom javascript-->
+  <script src="./js/pagemanager.js"></script>
+</body>
+
+
+</html>

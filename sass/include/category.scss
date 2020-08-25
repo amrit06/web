@@ -1,0 +1,67 @@
+.categorycontainer{
+    width: 100%;
+    text-align: center;
+}
+
+.sectionheader{
+    margin-top: 25px;
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    font-family: $font-san;
+    background: $color-secondary;
+    border: 2px solid $color-black;
+    border-left: 10px solid $color-purple;
+    background: $color-poloblue;
+}
+
+.categorycard{
+    display: inline-block;
+    width: 180px;
+    height: 230px;
+    background:$color-white;
+    box-shadow: 5px 5px 5px $color-white;
+    margin-right:5px;
+    margin-left:20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.categorycard:hover{
+    width: 200px;
+    height: 250px;
+    background: $color-poloblue;
+    transition: 0.3s;
+}
+
+.categorypic{
+    width: 100%;
+}
+
+.categorytext{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+}
+
+.categorytext h4 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: $font-san;
+}
+
+.categorytext p {
+    text-align: left;
+    font-size: 12px;
+    font-family: $font-con;
+    color: $color-black;
+}
+
+.categorytext hr {
+    color: $color-purple;
+    width: 80%;
+}
+
+
+
+
