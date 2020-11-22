@@ -1,12 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&family=Roboto+Mono&family=Pacifico&display=swap');
 
-
+//variables and fonts
 @import'./include/variables.scss';
-@import'./include/main.scss';
-@import'./include/textclasses.scss';
-@import'./include/nabvar.scss';
-@import'./include/visual.scss';
-@import'./include/category.scss';
-@import'./include/footer.scss';
-@import'./include/infosection.scss';
-@import'./include/boxcategory.scss';
+
+
+//css for all
+@import'./include/All.scss';
+@import'./include/Tables.scss';
+
+//layout
+@import './include/Lay_Navbar.scss';
+@import './include/Lay_Footer.scss';
+
+//pages
+@import'./include/Page_Index.scss';
+@import'./include/Page_Shopping.scss';
+@import'./include/Page_Productpage.scss';
+@import'./include/Page_Signup.scss';
+@import'./include/Page_Login.scss';
+@import'./include/Page_Cart.scss';
+@import'./include/Page_Orderpage.scss';
+@import'./include/Page_Addproduct.scss';
+@import'./include/Page_Wishlist.scss';
+
+//subpages
+@import'./include/Subpage_Main.scss';
+@import'./include/Subpage_Others.scss';
+@import'./include/Subpage_Billingform.scss';
+
+//popups, forms and others
+@import'./include/Other_Popups.scss';
+
+

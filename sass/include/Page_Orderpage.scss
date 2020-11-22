@@ -1,0 +1,63 @@
+
+.order_cart_wrapper{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    background: whitesmoke;
+    padding: 10px;
+
+    -webkit-box-shadow: 5px -1px 19px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px -1px 19px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px -1px 19px 1px rgba(0, 0, 0, 0.75);
+}
+
+
+.order_cart_wrapper table{
+    width: 100%;
+}
+
+.order_cart_wrapper table .table_content{
+    line-height: 10px;
+}
+
+.order_cart_wrapper table input{
+    width: 20%;
+}
+
+.order_cart_wrapper table img{
+    width: 30px;
+    height: 50px;
+}
+
+
+
+
+.order_wrapper {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    background: whitesmoke;
+    min-height: 600px;
+    padding: 10px;
+
+    -webkit-box-shadow: 5px -1px 19px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px -1px 19px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px -1px 19px 1px rgba(0, 0, 0, 0.75);
+}
+
+.form_header {
+    width: 100%;
+    line-height: 40px;
+    text-align: left;
+}
+
+.form_header h3 {
+    font-size: 1.8em;
+    margin-left: 10px;
+}
+
+.order_checkbox_con {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,37 @@
+.shopping_menu_button {
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.shopping_menu_button button {
+    width: 20%;
+    height: 100%;
+    float: left;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: $font-con;
+    font-weight: bold;
+    background: $color-poloblue;
+    color: black;
+    border: none;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    outline: none;
+}
+
+.shopping_menu_button button:hover {
+    background: gray;
+}
+
+.shopping_menu_button button:focus {
+    background: green;   
+}
+
+.subpage_section{
+    width: 100%;
+    height: auto;
+}
+

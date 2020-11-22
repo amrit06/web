@@ -1,0 +1,36 @@
+.body{
+    max-width: 90%;
+    margin: auto;
+    min-height: 800px;
+}
+
+.columnleft{
+    width: 180px;
+    height: 100%;
+    background: $color-secondary;
+    padding: 5px;
+    float: left;
+    margin-top: 20px;
+}
+
+.columnleft::before, .columnleft::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.columnright{
+    height: auto;
+}
+
+
+.subpage_product_section{
+    width: 100%;
+}
+
+//overriding index cardwrapper
+.subpage_product_section .card_wrapper{
+    width: 200px;
+    height: 240px;
+}
+

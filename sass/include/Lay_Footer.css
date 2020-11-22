@@ -1,0 +1,25 @@
+.footerwrapper {
+  width: 100%;
+  background: black;
+  margin-top: 100px;
+  height: 200px;
+}
+
+.footerwrapper .row10 {
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+
+.footerwrapper h3 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.footerwrapper ul {
+  text-align: center;
+  list-style-type: none;
+}
+/*# sourceMappingURL=Lay_Footer.css.map */

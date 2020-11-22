@@ -1,0 +1,32 @@
+
+.mian_img_con {
+    width: 100%;
+    height: 700px;
+}
+
+.mian_img_con img {
+    width: 100%;
+    height: 100%;
+}
+
+.main_collage_con {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+
+.collage_img_col {
+    float: left;
+    width: 33.33%;
+    height: 400px;
+    background: gray;
+}
+
+.collage_img_col img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+

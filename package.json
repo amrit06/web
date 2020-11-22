@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"sass ./sass/style.scss style.css --watch"
+    "start": "sass ./sass/style.scss style.css --watch"
   },
   "author": "amrit",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "mysql": "^2.18.1"
+  }
 }
