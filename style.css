@@ -848,7 +848,7 @@ table h3 {
   background: whitesmoke;
   right: 25%;
   position: absolute;
-  margin-top: 40px;
+  display: block;
 }
 
 .cart_total_con::before, .cart_total_con::after {

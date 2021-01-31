@@ -54,43 +54,47 @@ include_once '../../php/Foreign.php';
 
         <?php
 
-            $total = 0;
-            if( $_SESSION['user'] ){
-                $db = new Database();
-                $conn = $db->connect();
-                $cart = new ForeignTables($conn);
-                $result = $cart->showByCondition("cart", array("totalprice"), array("userid = ". $_SESSION['user'] ));
-                while($row = mysqli_fetch_assoc($result) ){
-                    $total += $row['totalprice'];
-                }
-            }else{
-                foreach ($_SESSION['cart'] as $c) {
-                    $cart = unserialize($c);
-                    $total += $cart->totalprice;
-                }                
+        $total = 0;
+        if ($_SESSION['user']) {
+            $db = new Database();
+            $conn = $db->connect();
+            $cart = new ForeignTables($conn);
+            $result = $cart->showByCondition("cart", array("totalprice"), array("userid = " . $_SESSION['user']));
+            while ($row = mysqli_fetch_assoc($result)) {
+                $total += $row['totalprice'];
             }
+        } else {
+            foreach ($_SESSION['cart'] as $c) {
+                $cart = unserialize($c);
+                $total += $cart->totalprice;
+            }
+        }
 
-            if( $total > 0){
-                echo
+        if ($total > 0) {
+            echo
                 '
                 <div class="cart_total_con">
                 <h3>Total: </h3>
-                <h3>'. $total .'</h3>
+                <h3>' . $total . '</h3>
                 <br>
                 <div class="cart_buy_con">
                     <a href="Oderpage.php">Buy</a>
                 </div>
                 </div>
                     ';
-            }
-           
-
+        }
 
         ?>
 
 
     </div>
 
+
+    <script type="text/javascript">
+        if (window.performance && window.performance.navigation.type == window.performance.navigation.TYPE_BACK_FORWARD) {
+            window.location.replace("http://developerenvironment.com/index.php");
+        }
+    </script>
 
 
     <div class="footer_section">

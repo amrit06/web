@@ -1,4 +1,4 @@
-<div class="radio_section">
+<div id="radiosize" class="radio_section">
     <label>Size</label><span class="error"><?php echo $gender_error; ?></span><br>
     <input type="radio" name="size" value="xs" />
     <label for="size">Extra Small</label><br>
@@ -12,7 +12,7 @@
     <label for="size">Extra Large</label><br>
 </div>
 
-<div class="radio_section">
+<div id="radiocolour" class="radio_section">
     <label>Colour</label><span class="error"><?php echo $gender_error; ?></span><br>
     <input type="radio" name="colour" value="red" />
     <label for="colour">Red</label><br>

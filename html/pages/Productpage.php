@@ -11,7 +11,7 @@ function createCart($productid)
     $db = new Database();
     $conn = $db->connect();
     $product = new Product($conn);
-    $result = $product->showProductByQuery(array("price"), array("id = " . $productid) );
+    $result = $product->showProductByQuery(array("price"), array("id = " . $productid));
     $row = mysqli_fetch_assoc($result);
     $conn->close();
 
@@ -265,7 +265,7 @@ function applyWishStyle()
                 <label>$<?php echo $row['price']; ?></label>
             </div>
 
-            <div class="product_btn_row">
+            <div id="product_btn_row" class="product_btn_row">
                 <div class="buybtn">
                     <a href="../../html/pages/Oderpage.php">Buy</a>
                 </div>
@@ -280,6 +280,25 @@ function applyWishStyle()
             </div>
         </div>
     </div>
+
+
+    <script type="text/javascript">
+        /* $("document").ready(function(){
+            setInterval(function(){
+                $("#product_btn_row").load(); // what you want to load
+                refresh();
+            }, 500);
+        }); */
+
+        $("#radiosize input:radio").click(function(){
+            
+        });
+
+        if (window.performance && window.performance.navigation.type == window.performance.navigation.TYPE_BACK_FORWARD) {
+            window.location.replace("http://developerenvironment.com/html/pages/Shopping.php#undefined");
+        }
+    </script>
+
 
 
     <?php

@@ -192,7 +192,7 @@ function removefromwhishlist($wishid)
     $db = new Database();
     $conn = $db->connect();
     $table = new ForeignTables($conn);
-    $result = $table->showByCondition("whishlist", array("productid"), array("id = " . $_POST['atc']) );
+    $result = $table->showByCondition("whishlist", array("productid"), array("id = " . $_POST['atc']));
     $row = mysqli_fetch_assoc($result);
     $cart = createCart($row['productid']);
     addtocart($cart, $_POST['atc']); //sending productid
@@ -204,6 +204,15 @@ function removefromwhishlist($wishid)
     echo "<meta http-equiv='refresh' content='0'>";
   }
   ?>
+
+
+
+
+  <script type="text/javascript">
+    if (window.performance && window.performance.navigation.type == window.performance.navigation.TYPE_BACK_FORWARD) {
+      window.location.replace("http://developerenvironment.com/index.php");
+    }
+  </script>
 
 
 
